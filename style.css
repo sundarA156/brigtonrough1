@@ -1,0 +1,964 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(68, 78, 25);
+    
+}
+.navcontainer {
+   display: flex;
+   width: 100%;
+   height: 80px;
+   background-color: rgb(93, 104, 31);
+}
+.navbar {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin: auto;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks li {
+    list-style-type: none;
+}
+.navlinks a {
+    margin-left: -150px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    
+}
+.navlinks a:hover{
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(233, 236, 9);
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100px;
+}
+
+.image1 {
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+.head h1 {
+    margin-top: 10px;
+    margin-left: -320px;
+    color: white;
+}
+.checkbtn {
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px 7px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+main {
+    width: 100%;
+    height: 100vh;
+}
+.container2 {
+    margin-top: -450px;
+    width: 90%;
+    height: 80vh;
+    margin-left: 70px;
+    background-color: #cece0b;
+    background-image: url(images/slider-bg.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+figure1 {
+    position: relative;
+    left: 0;
+    width: 100%;
+    animation: 7s slide infinite ease;
+}
+.slide1 {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide1 h1 {
+    color: #ffff;
+    position: absolute;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 200%;
+    margin-left: -100px;
+    text-align: center;
+    margin-top: 140px;
+}
+.slide1 h2 {
+    color: #fcf813;
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    margin-left: -170px;
+    text-align: center;
+    margin-top: 90px;
+}
+.slide1 p {
+    color: white;
+    width: 200%;
+    margin-left: 40px;
+    margin-top: 200px;
+    font-size: 18px;
+}
+.slide2 {
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-left: 100%;
+}
+.slide2 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    width: 200%;
+    margin-left: -90px;
+    text-align: center;
+    top: -230px;
+}
+.slide2 h2 {
+    color: #fcf813;
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    margin-left: -165px;
+    text-align: center;
+    margin-top: -180px;
+}
+.slide2 p {
+    color: white;
+    width: 200%;
+    margin-left: 50px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+button1 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #cff018;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button2 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #ffffff;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+ button3 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #cff018;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button4 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #ffffff;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+
+
+
+.slide3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 200%;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide3 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    width: 300%;
+    margin-left: -250px;
+    text-align: center;
+    top: -230px;
+}
+.slide3 h2 {
+    color: #fcf813;
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    margin-left: -165px;
+    text-align: center;
+    margin-top: -180px;
+}
+.slide3 p {
+    color: white;
+    width: 300%;
+    margin-left: 50px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+button5 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #cff018;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button6 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #ffffff;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+.slide4 {
+    margin-top: 0px;
+    margin-left: 300%;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide4 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    width: 200%;
+    margin-left: -90px;
+    text-align: center;
+    top: -230px;
+}
+.slide4 h2 {
+    color: #fcf813;
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    margin-left: -165px;
+    text-align: center;
+    margin-top: -180px;
+}
+.slide4 p {
+    color: white;
+    width: 200%;
+    margin-left: 50px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+button7 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #cff018;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button8 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+     padding: 15px 25px;
+     background-color: #ffffff;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+      }
+      10% {
+        left: 0;
+      }
+      20% {
+        left: -100%;
+      }
+      30% {
+        left:-100%;
+      }
+      40% {
+        left: -200%;
+      }
+      50% {
+        left: -200%;
+      }
+      55% {
+        left: -300%;
+      }
+      65% {
+        left: -300%;
+      }
+      69% {
+        left: -200%;
+      }
+      74%{
+        left: -200%;
+      }
+      75% {
+        left: -100%;
+      }
+      85% {
+        left: -100%;
+      }
+      90% {
+        left: 0%;
+      }
+      100% {
+          left: 0%;
+      }
+  }
+#offer {
+    width: 100%;
+    height: 100px;
+}
+.container3 {
+    width: 100%;
+    height: 100px;
+}
+.whatoffer {
+    width: 100%;
+    height: 100px;
+}
+h1 {
+   margin-top:100px;
+   font-size: 30px;
+   margin-left: 100px;
+}
+p{
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+#listtools {
+    width: 100%;
+    height: 100vh;
+}
+.container4 {
+    width: 100%;
+    height: 100vh;
+}
+.toolslist {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 214, 214);
+    padding: 20px 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.box img:hover{
+    background-color: rgb(113, 136, 11);
+}
+.box h1 {
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+.box p {
+    margin-left: 220px;
+}
+#about-us {
+    width: 100%;
+    height: 500px;
+}
+.container5{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.aboutimg {
+    background-image: url(images/about-img.jpg);
+    background-size: cover;
+    
+}
+.aboutlist {
+    background-color: rgba(236, 230, 230, 0.336);
+}
+.aboutlist h1{
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.aboutlist p {
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 0px;
+}
+.aboutlist button {
+     position: absolute;
+     margin-left: 0px;
+     margin-top: 40px;
+     padding: 15px 25px;
+     background-color: yellow;
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+     border: none;
+     cursor: pointer;
+}
+.aboutlist button:hover {
+    color: white;
+    background-color: #8aa00c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:567px) {
+    .navlinks {
+        background-color: burlywood;
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+        display: none;
+    }
+    .navlinks li {
+        background-color: #cff018;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .image1{
+        width: 20px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: -20px;
+
+    }
+    .head h1 {
+        font-size: 30px;
+        margin-left: -40px;
+    }
+    .navlinks li{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navlinks li a {
+        display: flex;
+        width: 150%;
+        color: rgb(0, 0, 0);
+        font-size: 20px;  
+        margin-left: 0%; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li1,
+    .li2,
+    .li3,
+    .li4 {
+        border-bottom: 1px solid black;
+    }
+
+    .navlinks li:hover {
+        transition: 0.5s;
+        background-color: #24ec12;
+
+    }
+    .navlinks a:hover{
+        border-bottom: none;
+    }
+
+    /* .navlinks li:hover a {
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+    } */
+
+    .checkbtn {
+        display: block;
+       
+    }
+    #check:checked~.navlinks {
+       
+        display: flex;
+    }
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+    .container2 {
+        margin-top: -650px;
+        width: 90%;
+        height: 80vh;
+        margin-left: 20px;
+        background-image: url(images/slider-bg.jpg);
+      
+    }
+    .slider {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+    }
+    figure1 {
+        position: relative;
+        left: 0;
+        width: 100%;
+        animation: 10s slide infinite;
+    }
+    .slide1 {
+        position: relative;
+        width: 25%;
+        float: left;
+        margin-left: 50%;
+    }
+    .slide1 h1 {
+        color: #ffff;
+        position: absolute;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 300%;
+        margin-left: -130px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .slide1 h2 {
+        color: #fcf813;
+        position: absolute;
+        font-size: 18px;
+        text-transform: uppercase;
+        width: 400%;
+        margin-left: -170px;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .slide1 p {
+        color: white;
+        width: 350%;
+        margin-left: -140px;
+        margin-top: 160px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .slide2 {
+        position: relative;
+        width: 25%;
+        float: left;
+        margin-left: 200%;
+    }
+    .slide2 h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 30px;
+        position: absolute;
+        width: 300%;
+        margin-left: -300px;
+        text-align: center;
+        top: -270px;
+    }
+    .slide2 h2 {
+        color: #fcf813;
+        position: absolute;
+        font-size: 18px;
+        text-transform: uppercase;
+        width: 400%;
+        margin-left: -340px;
+        text-align: center;
+        margin-top: -200px;
+    }
+    .slide2 p {
+        color: white;
+        width: 350%;
+        text-align: center;
+        margin-left: -320px;
+        margin-top: -130px;
+        font-size: 18px;
+    }
+    button1 {
+         position: absolute;
+         margin-left: -50px;
+         width: 160%;
+         margin-top: 20px;
+         padding: 15px 25px;
+         background-color: #cff018;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    button2 {
+         width: 57%;
+         position: absolute;
+         width: 160%;
+         margin-left: -50px;
+         margin-top: 80px;
+         padding: 15px 25px;
+         background-color: #ffffff;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+     button3 {
+        position: absolute;
+         margin-left: -230px;
+         margin-top: 20px;
+         width: 160%;
+         padding: 15px 25px;
+         background-color: #cff018;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    button4 {
+        width: 160%;
+        position: absolute;
+        margin-left: -230px;
+        margin-top: 80px;
+         padding: 15px 25px;
+         background-color: #ffffff;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    
+    
+    
+    .slide3 {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 250%;
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+    .slide3 h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 30px;
+        position: absolute;
+        width: 300%;
+        margin-left: -120px;
+        text-align: center;
+        top: -270px;
+    }
+    .slide3 h2 {
+        color: #fcf813;
+        position: absolute;
+        font-size: 18px;
+        text-transform: uppercase;
+        width: 400%;
+        margin-left: -165px;
+        text-align: center;
+        margin-top: -200px;
+    }
+    .slide3 p {
+        color: white;
+        width: 350%;
+        margin-left: -150px;
+        margin-top: -130px;
+        text-align: center;
+        font-size: 18px;
+    }
+    button5 {
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 20px;
+        width: 160%;
+         padding: 15px 25px;
+         background-color: #cff018;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    button6 {
+        width: 160%;
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 80px;
+         padding: 15px 25px;
+         background-color: #ffffff;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    .slide4 {
+        margin-top: 0px;
+        margin-left: 400%;
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+    .slide4 h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 30px;
+        position: absolute;
+        width: 300%;
+        margin-left: -305px;
+        text-align: center;
+        top: -270px;
+    }
+    .slide4 h2 {
+        color: #fcf813;
+        position: absolute;
+        font-size: 18px;
+        text-transform: uppercase;
+        width: 400%;
+        margin-left: -350px;
+        text-align: center;
+        margin-top: -200px;
+    }
+    .slide4 p {
+        color: white;
+        width: 350%;
+        margin-left: -330px;
+        text-align: center;
+        margin-top: -130px;
+        font-size: 18px;
+    }
+    button7 {
+        position: absolute;
+        margin-left: -250px;
+        margin-top: 20px;
+         padding: 15px 25px;
+         background-color: #cff018;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    button8 {
+        width: 160%;
+        position: absolute;
+        margin-left:-250px;
+        margin-top: 80px;
+         padding: 15px 25px;
+         background-color: #ffffff;
+         color: black;
+         text-transform: uppercase;
+         font-size: 15px;
+    }
+    
+    @keyframes slide {
+        0% {
+          left: 0;
+        }
+        10% {
+          left: 0;
+        }
+        20% {
+          left: -100%;
+        }
+        30% {
+          left:-100%;
+        }
+        40% {
+          left: -200;
+        }
+        50% {
+          left: -200%;
+        }
+        55% {
+          left: -300%;
+        }
+        65% {
+          left: -300%;
+        }
+        66% {
+          left: -200%;
+        }
+        74%{
+          left: -200%;
+        }
+        75% {
+          left: -100%;
+        }
+        85% {
+          left: -100%;
+        }
+        90% {
+          left: 0%;
+        }
+        100% {
+            left: 0%;
+        }
+    }
+    #offer {
+        width: 100%;
+        height: 100px;
+    }
+    .container3 {
+        width: 100%;
+        height: 100px;
+    }
+    .whatoffer {
+        width: 100%;
+        height: 100px;
+    }
+    .whatoffer h1 {
+       margin-top:140px;
+       font-size: 30px;
+       margin-left: 60px;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .container4 {
+        width: 100%;
+        height: 100vh;
+    }
+    .toolslist {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box img{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(224, 214, 214);
+        padding: 20px 20px;
+        margin-left: 150px;
+        margin-top:60px;
+    }
+    .box img:hover{
+        background-color: rgb(113, 136, 11);
+    }
+    .box h1 {
+       
+        font-size: 20px;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    .box p {
+        margin-left: 30px;
+    }
+    #about-us {
+        width: 100%;
+        height: 500px;
+    }
+    .container5{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .aboutimg {
+        background-image: url(images/about-img.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        margin-left: 20px;
+        height: 400px;
+        margin-top: 900px;
+        
+    }
+    .aboutlist {
+        height: 500px;
+        background-color: rgba(236, 230, 230, 0.336);
+    }
+    .aboutlist h1{
+        margin-top: 70px;
+        margin-left: 35px;
+        font-size: 25px;
+    }
+    .aboutlist p {
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 60px;
+    }
+    .aboutlist button {
+         position: absolute;
+         margin-left: 90px;
+         margin-top: 40px;
+         padding: 15px 25px;
+         background-color: yellow;
+         color: black;
+         text-transform: uppercase;
+         font-size: 18px;
+         border: none;
+         cursor: pointer;
+    }
+    .aboutlist button:hover {
+        color: white;
+        background-color: #8aa00c;
+    }
+
+    
+}
